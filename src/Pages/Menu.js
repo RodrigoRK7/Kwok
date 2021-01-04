@@ -24,7 +24,7 @@ function Inicio (){
         <div>
         <NavBar/>
         <div className = {classes.fondo}>
-        <div className = {classes.title}><b>Welcome!</b></div>
+        <div className = {classes.title}><b>Welcome</b></div>
         </div>
         </div>
     )
