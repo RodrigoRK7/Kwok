@@ -5,9 +5,8 @@ const useStyles = makeStyles((theme) => ({
   fondo: {
     backgroundImage:
       "url(https://tec.mx/sites/default/files/styles/header_full/public/2019-04/EstadioBorregos-Tec-de-Monterrey.jpg?itok=HQUIbkeh)",
-    backgroundSize: "100% 100%",
+    backgroundSize: "cover",
     display: "flex",
-    position: "fixed",
     alignItems: "center",
     justifyContent: "center",
   },
@@ -21,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
 function Tec() {
   const classes = useStyles();
   return (
-    <div>
+    <div style ={{position: "relative"}}>
       <NavBar />
       <div className={classes.fondo}>
         <div className={classes.title}>

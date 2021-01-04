@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 function Money() {
   const classes = useStyles();
   return (
-    <div>
+    <div style ={{position: "static"}}>
       <NavBar />
       <div className={classes.fondo}>
         <div className={classes.title}>

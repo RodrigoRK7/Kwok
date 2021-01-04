@@ -5,7 +5,7 @@ const useStyles = makeStyles(theme => ({
         backgroundImage: "url(https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2017/05/wallpaper.jpg)",
         backgroundSize: "cover",
         display: "flex",
-        position: "fixed",
+        top: "80px",
         justifyContent: "center",
         alignItems: "center",
     },
