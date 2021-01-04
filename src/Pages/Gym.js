@@ -5,7 +5,7 @@ const useStyles = makeStyles((theme) => ({
   fondo: {
     backgroundImage:
       "url(https://pantalladeportiva.com/wp-content/uploads/2019/03/Gimnasio-mancuernas.jpg)",
-    position: "fixed",
+    position: "relative",
     display: "flex",
     minWidth: "100%",
     minHeight: "100%",

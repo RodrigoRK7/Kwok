@@ -5,9 +5,7 @@ const useStyles = makeStyles((theme) => ({
   fondo: {
     backgroundImage:
       "url(https://tec.mx/sites/default/files/styles/header_full/public/2019-04/EstadioBorregos-Tec-de-Monterrey.jpg?itok=HQUIbkeh)",
-    backgroundSize: "cover",
-    minWidth: "100%",
-    minHeight: "100%",
+    backgroundSize: "100% 100%",
     display: "flex",
     position: "fixed",
     alignItems: "center",

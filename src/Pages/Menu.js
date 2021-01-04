@@ -4,8 +4,6 @@ const useStyles = makeStyles(theme => ({
     fondo:{
         backgroundImage: "url(https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2017/05/wallpaper.jpg)",
         backgroundSize: "cover",
-        minWidth: "100%",
-        minHeight: "100%",
         display: "flex",
         position: "fixed",
         justifyContent: "center",
