@@ -26,6 +26,7 @@ const useStyles = makeStyles(theme => ({
     width: "80%", 
     height: "30px", 
     borderRadius: "4px",
+    outline: "none"
   },
  button:{
    width: "25%",
