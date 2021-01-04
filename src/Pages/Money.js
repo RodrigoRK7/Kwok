@@ -6,11 +6,14 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage:
       "url(https://www.itl.cat/pngfile/big/174-1748956_coin-currency-earnings-economy-finance-financial-business-currency.jpg)",
     backgroundSize: "cover",
-    minWidth: "100%",
-    minHeight: "100%",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    minWidth: "100%",
+    minHeight: "100%",
+    position: "absolute",
+    marginTop: "80px",
+    zIndex: "-1",
   },
   title: {
     fontSize: "3rem",
@@ -22,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 function Money() {
   const classes = useStyles();
   return (
-    <div style ={{position: "static"}}>
+    <div>
       <NavBar />
       <div className={classes.fondo}>
         <div className={classes.title}>

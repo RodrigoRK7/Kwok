@@ -9,6 +9,11 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    minWidth: "100%",
+    minHeight: "100%",
+    position: "absolute",
+    marginTop: "80px",
+    zIndex: "-1",
   },
   title: {
     fontSize: "3rem",
@@ -20,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 function Tec() {
   const classes = useStyles();
   return (
-    <div style ={{position: "relative"}}>
+    <div>
       <NavBar />
       <div className={classes.fondo}>
         <div className={classes.title}>

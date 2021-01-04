@@ -5,11 +5,13 @@ const useStyles = makeStyles(theme => ({
   fondo:{
     backgroundImage: "url(https://images.unsplash.com/photo-1444080748397-f442aa95c3e5)",
     backgroundSize: "cover",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
     minWidth: "100%",
     minHeight: "100%",
-    justifyContent: "center",
-    display: "flex",
-    alignItems:"center",
+    position: "absolute",
+    zIndex: "-1",
   },
   inicio: {
    backgroundColor: "#FFFFFF",
