@@ -1,4 +1,5 @@
-import {makeStyles} from '@material-ui/core/styles'
+import {makeStyles} from '@material-ui/core/styles';
+import './Home.css';
 
 const useStyles = makeStyles(theme => ({
   
@@ -10,19 +11,9 @@ const useStyles = makeStyles(theme => ({
     justifyContent: "center",
     minWidth: "100%",
     minHeight: "100%",
-    position: "absolute",
+    position: "fixed",
     zIndex: "-1",
   },
-  inicio: {
-   backgroundColor: "#FFFFFF",
-   textAlign: "center",
-   minWidth: "30%", 
-   fontSize: "270%",
-   paddingLeft: "5%",
-   paddingRight: "5%",
-   paddingBottom: "4%",
-   borderRadius: "15px",
- },
   input:{
     width: "80%", 
     height: "30px", 
@@ -51,7 +42,7 @@ function Home() {
   const classes = useStyles();
   return (
     <div className={classes.fondo}>
-      <div className={classes.inicio}>
+      <div className="inicio">
         <h1>Kwok</h1>
         <div style={{ marginTop: "-1.8rem", paddingBottom: "0.8rem" }}>
           <input
